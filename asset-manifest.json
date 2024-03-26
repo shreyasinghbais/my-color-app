@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/my-color-app/static/css/main.0b5349d6.css",
+    "main.js": "/my-color-app/static/js/main.265c7faf.js",
+    "static/js/453.ed3810f9.chunk.js": "/my-color-app/static/js/453.ed3810f9.chunk.js",
+    "index.html": "/my-color-app/index.html",
+    "main.0b5349d6.css.map": "/my-color-app/static/css/main.0b5349d6.css.map",
+    "main.265c7faf.js.map": "/my-color-app/static/js/main.265c7faf.js.map",
+    "453.ed3810f9.chunk.js.map": "/my-color-app/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0b5349d6.css",
+    "static/js/main.265c7faf.js"
+  ]
+}
