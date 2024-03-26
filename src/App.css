@@ -1,38 +1,102 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+ .App{
+  background-color: #FFE5E5;
+ }
+.site-header {
+  background: #52006A;
+  color: #FFA900;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+.site-header h1 {
+  margin: 1rem 5rem;
+  font-size: xx-large;
+  text-shadow: .2rem .2rem .3rem #CD113B;
+}
+.site-header nav {
+  margin: 1rem 5rem;
+  font-size: x-large;
+  font-weight: 500;
+}
+.site-header nav a{
+  padding-right: 1rem;
+  text-decoration: none;
+  color: #FFA900;
+} 
+.site-header nav a:hover{
+  text-shadow: .2rem .2rem .3rem #CD113B;
+}
+.about-section {
+  padding: 5rem 4rem 1rem;
+  text-align: center; 
+}
+.about-section h2{
+  color: #CD113B;
+  text-shadow: .1rem .1rem .2rem #FFA900;
+}
+.services-section {
+  padding: 0rem 4rem 10rem;
+}
+.services-section h2{
+  text-align: center;
+  color: #CD113B;
+  text-shadow: .1rem .1rem .2rem #FFA900;
+}
+.site-footer {
+  background: #52006A;
+  color: #FFA900;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  text-shadow: .1rem .1rem .2em #FFA900;
+} 
+.search-page {
+  padding: 8rem 5rem 20rem;
+  margin: 2rem .5rem 2rem;
+  text-align: center; 
+}
+
+.search-input { 
+  padding: .5rem;
+  width: 80%;
+  max-width: 400px;
+  margin: 1.25rem;
+  border-radius: 1rem;
+}
+
+.color-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  gap: 10px;
+}
+
+.color-card {
+  padding: 1.5rem;
+  color: #fff;
+  font-size: x-large;
+  font-weight: bold;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  height: 100px;
+  border-radius: 1rem;
+  box-shadow: .2rem .2rem .3rem grey;
+}
+@media (max-width: 640px) {
+  .site-header h1 {
+    margin: 1rem 1rem;
+    font-size: x-large;
+  }
+  .site-header nav {
+    margin: 1rem 1rem;
+    font-size: large;
+  }
+  .site-header nav a{
+    padding-right: 0.5rem;
+  } 
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
